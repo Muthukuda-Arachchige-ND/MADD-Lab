@@ -38,7 +38,7 @@ interface Shape {
     fun draw()
 }
 
-// Circle class implements Shape
+
 class Circle : Shape {
     override fun setup() {
         println("Setting up a circle with radius and center.")
@@ -49,7 +49,7 @@ class Circle : Shape {
     }
 }
 
-// Rectangle class implements Shape
+
 class Rectangle : Shape {
     override fun setup() {
         println("Setting up a rectangle with width and height.")
@@ -60,7 +60,7 @@ class Rectangle : Shape {
     }
 }
 
-// Triangle class implements Shape
+
 class Triangle : Shape {
     override fun setup() {
         println("Setting up a triangle with 3 sides.")
